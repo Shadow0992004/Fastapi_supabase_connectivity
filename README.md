@@ -1,0 +1,1 @@
+# Fastapi_supabase_connectivity
