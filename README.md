@@ -8,11 +8,14 @@ Before running this application, make sure you have the following:
 3. A Supabase project set up with a URL and key. You can sign up for a free Supabase account at Supabase.io.
 
 ## Installation:
+
+### Importing necessary modules:
 ```bash
 pip install fastapi
 pip install supabase
 ```
 
+### Supabase connectivity:
 ```bash
 export SUPABASE_URL="YOUR_SUPABASE_URL"
 export SUPABASE_KEY="YOUR_SUPABASE_KEY"
