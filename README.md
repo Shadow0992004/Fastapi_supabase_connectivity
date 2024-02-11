@@ -36,12 +36,12 @@ Run the FastAPI application:
 uvicorn main:app --host 127.0.0.1 --port 8000
 ```
 ### API Endpoints
-1. GET /: Returns a sample response.
-2. GET /fetch: Fetches all data from the specified table.
-3. GET /fetch/{id}: Fetches data by ID.
-4. POST /insert: Inserts new data into the table.
-5. PUT /update/{id}: Updates existing data by ID.
-6. DELETE /delete/{id}: Deletes data by ID.
+1. **GET /**: Returns a sample response.
+2. **GET /fetch**: Fetches all data from the specified table.
+3. **GET /fetch/{id}**: Fetches data by ID.
+4. **POST /insert**: Inserts new data into the table.
+5. **PUT /update/{id}**: Updates existing data by ID.
+6. **DELETE /delete/{id}**: Deletes data by ID.
 
 ### Data Model
 The application uses the following data model:
